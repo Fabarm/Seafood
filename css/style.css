@@ -216,10 +216,27 @@ bottom: 0;
 }
 
 .product__content-title{
+    font-family: 'Roboto Slab', serif;
     padding-top: 20px;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     color: #001E64;
     margin-bottom: 20px;
+}
+.product__content-text{
+    margin-bottom: 25px;
+}
+.product__content-btn{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 12px 85px;
+    background-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #001E64;
+    border: 1px solid #001E64;
+    border-radius: 20px;
 }
