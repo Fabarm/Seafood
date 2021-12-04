@@ -413,6 +413,12 @@ background-image: url("../images/seafood-bg.jpg");
     background-color: #001E64;
 }
 
+@media (max-width: 1160px){
+    .product__name{
+        width: 350px;
+    }
+}
+
 @media (max-width: 1000px) {
     .menu__list{
         position: absolute;
@@ -443,6 +449,29 @@ background-image: url("../images/seafood-bg.jpg");
         padding: 20px 0;
         display: block;
         text-align: center;
+    }
+    .product__name{
+        width: 250px;
+    }
+}
+
+@media (max-width: 890px){
+    .product__inner{
+        display: block;
+    }
+    .product__content{
+        margin: 0 auto;
+    }
+    .product__name{
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 80px;
+    }
+    .product__name-item + .product__name-item{
+        margin-top: 0;
+    }
+    .product__name-item.slick-current{
+        line-height: 44px;
     }
 }
 

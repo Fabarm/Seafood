@@ -12,7 +12,7 @@ $(function(){
                     arrows: false,
                     autoplay: true,
                     autoplaySpeed: 2000,
-    }
+                }
             }
         ]
     });
@@ -24,7 +24,18 @@ $(function(){
         asNavFor: '.product__content',
         vertical: true,
         prevArrow: '<button type="button" class="product-prev"><img src="images/product-prev.svg" alt=""></button>',
-        nextArrow: '<button type="button" class="product-next"><img src="images/product-next.svg" alt=""></button>'
+        nextArrow: '<button type="button" class="product-next"><img src="images/product-next.svg" alt=""></button>',
+        responsive: [
+            {
+                breakpoint: 891,
+                settings: {
+                    vertical: false,
+                    slidesToShow: 3,
+                    arrows: false,
+                    centerMode: true
+                }
+            }
+        ]
     });
 
     $('.product__content').slick({
