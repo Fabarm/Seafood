@@ -139,6 +139,11 @@ bottom: 0;
     display: inline-block;
     transform: translateY(-100px);
     position: absolute;
+    transition: all .3s;
+}
+.header__content-btn:hover{
+    color: #001E64;
+    background-color: rgba(255,255,255,1);
 }
 .header__content-box{
     display: flex;
@@ -240,6 +245,12 @@ bottom: 0;
     border: 1px solid #001E64;
     border-radius: 20px;
     cursor: pointer;
+    transition: all .3s;
+
+}
+.product__content-btn:hover{
+    background-color: #001E64;
+    color: #fff;
 }
 .seafood-box{
 background-image: url("../images/seafood-bg.jpg");
@@ -344,10 +355,31 @@ background-image: url("../images/seafood-bg.jpg");
 .contacts__box-item span{
     display: block;
 }
+.footer{
+    padding: 25px 0 110px;
+}
 .footer__inner{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 45px 0 23px;
 }
-.footer__social-list
-.footer__social-link
-.footer__social-item
+.footer__inner .menu{
+    padding-bottom: 30px;
+}
+.footer__social-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer__social-item + .footer__social-item{
+    margin-left: 10px;
+}
+.footer__social-link path{
+    transition: all .3s;
+}
+.footer__social-link:hover path{
+    fill:#001E64;
+}
+
