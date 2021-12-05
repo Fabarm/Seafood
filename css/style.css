@@ -399,7 +399,6 @@ background-image: url("../images/seafood-bg.jpg");
     right: 0;
     height: 4px;
     background-color: #001E64;
-
 }
 .menu__btn::after{
     top: 0;
@@ -476,7 +475,6 @@ background-image: url("../images/seafood-bg.jpg");
         width: 250px;
     }
 }
-
 @media (max-width: 950px){
     .seafood__item{
         flex-wrap: wrap;
@@ -501,7 +499,6 @@ background-image: url("../images/seafood-bg.jpg");
         max-width: 100%;
     }
 }
-
 @media (max-width: 890px){
     .product__inner{
         display: block;
@@ -539,7 +536,6 @@ background-image: url("../images/seafood-bg.jpg");
         background-color: #001E64;
     }
 }
-
 @media (max-width: 745px){
     .title{
         font-size: 50px;
@@ -549,7 +545,6 @@ background-image: url("../images/seafood-bg.jpg");
         text-align: center;
     }
 }
-
 @media (max-width: 650px){
     .product__content{
         width: 100%;
@@ -577,7 +572,6 @@ background-image: url("../images/seafood-bg.jpg");
         padding: 33px 0;
     }
 }
-
 @media (max-width: 600px){
     .product__content-box{
         display: block;
@@ -596,7 +590,6 @@ background-image: url("../images/seafood-bg.jpg");
         display: none;
     }
 }
-
 @media (max-width: 470px){
     .header-slider{
         padding-left: 50px;
@@ -621,7 +614,6 @@ background-image: url("../images/seafood-bg.jpg");
         padding-top: 50px;
     }
 }
-
 @media (max-width: 360px){
     .title{
         padding-top: 125px;
