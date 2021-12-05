@@ -6,7 +6,7 @@ $(function(){
         fade:true,
         responsive: [
             {
-                breakpoint: 361,
+                breakpoint: 371,
                 settings: {
                     dots: false,
                     arrows: false,
