@@ -32,7 +32,14 @@ $(function(){
                     vertical: false,
                     slidesToShow: 3,
                     arrows: false,
-                    centerMode: true
+                    dots: true
+                },
+                breakpoint: 461,
+                settings: {
+                    vertical: false,
+                    slidesToShow: 1,
+                    arrows: false,
+                    dots: true
                 }
             }
         ]
